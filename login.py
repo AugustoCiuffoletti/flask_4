@@ -11,8 +11,8 @@ def login():
       return resp
     else:
       return "Non autorizzato"
-    else:
-      return render_template("login.html")
+  else:
+    return render_template("login.html")
 		
 @app.route('/id', methods=['GET'])
 def id():
