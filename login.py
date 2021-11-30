@@ -16,5 +16,5 @@ def login():
 		
 @app.route('/id', methods=['GET'])
 def id():
-	yourname=request.cookies.get("utente")
-	return "Sei "+yourname;
+  yourname=request.cookies.get("utente")
+  return "Sei "+yourname;
